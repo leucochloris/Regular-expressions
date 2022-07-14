@@ -1,11 +1,9 @@
 import re
 
-a = '121245abc456 ABC4545ABC4545151065abn_abc'
+a = '121245abc456 ABC4545ABC4545151065abn_abc Irina, Olga, Petr, yankov@mail.ru, job@hh.ru, small2@ii.net'
 
-pattern = re.compile(r"ABC")
-matches = re.finditer(r"abc", a)
-
-
+pattern = r"@\w+\.\w+"    # at, all alphabet symbol, dot, all alphabet symbol
+matches = re.findall(pattern, a)
 
 for i in matches:
-    print(i.span())     # place in massive where we find it
+    print(i)
