@@ -7,6 +7,6 @@
 5. Draw a graphic by library matplotlib.
 
 
-###### This is the MVP of the script, later it will be realised more informatively
+######  This is the MVP of the script, later it will be realised more informatively
 
 ![Figure](https://user-images.githubusercontent.com/108606736/184612485-202623fa-d32a-4216-ac4e-916a93e278bb.png)
